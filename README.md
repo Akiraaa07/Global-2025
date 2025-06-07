@@ -49,7 +49,7 @@ https://saferoute-rm554227.azurewebsites.net/
 ---
 
 ## 🌐 MongoDB Atlas
-- Banco: `odontoprevdb`
+- Banco: `SafeRoute`
 - Coleções criadas automaticamente: `usuarios`, `rotasegura`
 
 ---
