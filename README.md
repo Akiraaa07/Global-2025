@@ -1,4 +1,4 @@
-# 📦 Projeto OdontoPrev - Spring Boot + MongoDB + Azure DevOps
+# 📦 Projeto GlobalSolution 2025 - Spring Boot + MongoDB + Azure DevOps
 
 Este projeto consiste em uma aplicação web desenvolvida em **Java com Spring Boot**, que realiza o cadastro de **Usuarios** e **Rotas seguras**, persistindo os dados em um banco **MongoDB Atlas** na nuvem. A aplicação é implantada automaticamente no **Azure App Service** via **Azure DevOps Pipeline**.
 
