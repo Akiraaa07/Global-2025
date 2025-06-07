@@ -1,6 +1,6 @@
 # 📦 Projeto OdontoPrev - Spring Boot + MongoDB + Azure DevOps
 
-Este projeto consiste em uma aplicação web desenvolvida em **Java com Spring Boot**, que realiza o cadastro de **médicos** e **pacientes**, persistindo os dados em um banco **MongoDB Atlas** na nuvem. A aplicação é implantada automaticamente no **Azure App Service** via **Azure DevOps Pipeline**.
+Este projeto consiste em uma aplicação web desenvolvida em **Java com Spring Boot**, que realiza o cadastro de **Usuarios** e **Rotas seguras**, persistindo os dados em um banco **MongoDB Atlas** na nuvem. A aplicação é implantada automaticamente no **Azure App Service** via **Azure DevOps Pipeline**.
 
 ---
 
@@ -17,7 +17,7 @@ Este projeto consiste em uma aplicação web desenvolvida em **Java com Spring B
 
 ### 1. Clonar o projeto:
 ```bash
-git clone https://github.com/seu-usuario/sprint04-java.git
+git clone https://github.com/seu-usuario/Global-2025.git
 ```
 
 ### 2. Abrir o Azure DevOps
@@ -38,19 +38,19 @@ git clone https://github.com/seu-usuario/sprint04-java.git
     - Publicar o deploy em:
 
 ```
-https://odontoprev-rm554227.azurewebsites.net/medicos
+https://saferoute-rm554227.azurewebsites.net/
 ```
 
 ### 5. Testar Funcionalidade
-- Acessar `/medicos/novo` e cadastrar um médico
-- Acessar `/pacientes/novo` e cadastrar um paciente
-- Verificar os dados salvos no MongoDB Atlas (coleções: `medicos` e `pacientes`)
+- Acessar `/usuarios/novo` e cadastrar um usuário
+- Acessar `/api/rotasegura/cadastrar` e cadastrar um rota segura
+- Verificar os dados salvos no MongoDB Atlas (coleções: `usuarios` e `rotasegura`)
 
 ---
 
 ## 🌐 MongoDB Atlas
 - Banco: `odontoprevdb`
-- Coleções criadas automaticamente: `medicos`, `pacientes`
+- Coleções criadas automaticamente: `usuarios`, `rotasegura`
 
 ---
 
