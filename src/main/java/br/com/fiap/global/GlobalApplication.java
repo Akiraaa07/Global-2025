@@ -6,9 +6,9 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication
 @EnableMongoRepositories(basePackages = "br.com.fiap.global.repository")
-public class Sprint04Application {
+public class GlobalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Sprint04Application.class, args);
+		SpringApplication.run(GlobalApplication.class, args);
 	}
 }
