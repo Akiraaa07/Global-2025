@@ -14,17 +14,17 @@ variables:
   - name: location
     value: eastus
   - name: resourceGroup
-    value: rg-odontoprev
+    value: rg-SafeRoute
   - name: service-plan
-    value: plan-odontoprev
+    value: plan-SafeRoute
   - name: app-name
-    value: odontoprev-$(rm)
+    value: SafeRoute-$(rm)
   - name: runtime
     value: JAVA:17-java17
   - name: sku
     value: F1
   - name: nome-artefato
-    value: odontoprev
+    value: SafeRoute
 
 stages:
   - stage: CriarInfra
